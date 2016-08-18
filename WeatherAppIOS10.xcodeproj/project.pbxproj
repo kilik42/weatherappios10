@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105DD5141D656A0000E318D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DD5131D656A0000E318D4 /* Constants.swift */; };
+		105DD5161D656E1300E318D4 /* PrintWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DD5151D656E1300E318D4 /* PrintWeather.swift */; };
 		10785CB81D62682400687378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10785CB71D62682400687378 /* AppDelegate.swift */; };
 		10785CBA1D62682400687378 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10785CB91D62682400687378 /* WeatherVC.swift */; };
 		10785CBD1D62682400687378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10785CBB1D62682400687378 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105DD5131D656A0000E318D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		105DD5151D656E1300E318D4 /* PrintWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintWeather.swift; sourceTree = "<group>"; };
 		10785CB41D62682400687378 /* WeatherAppIOS10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppIOS10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10785CB71D62682400687378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10785CB91D62682400687378 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				10785CBE1D62682400687378 /* Assets.xcassets */,
 				10785CC01D62682400687378 /* LaunchScreen.storyboard */,
 				10785CC31D62682400687378 /* Info.plist */,
+				105DD5131D656A0000E318D4 /* Constants.swift */,
+				105DD5151D656E1300E318D4 /* PrintWeather.swift */,
 			);
 			path = WeatherAppIOS10;
 			sourceTree = "<group>";
@@ -438,6 +444,8 @@
 			files = (
 				10785CBA1D62682400687378 /* WeatherVC.swift in Sources */,
 				10785CB81D62682400687378 /* AppDelegate.swift in Sources */,
+				105DD5161D656E1300E318D4 /* PrintWeather.swift in Sources */,
+				105DD5141D656A0000E318D4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
